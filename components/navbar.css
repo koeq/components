@@ -1,0 +1,49 @@
+.header {
+    width:100%;
+    background-color: white;
+    padding: 45px 0 34px 0;
+    z-index: 3;
+
+    //border: 1px solid grey;
+}
+
+.navbar {
+    width: 82.5%;
+    margin-left: 17.5%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 68px 0 0 0;
+
+
+    //border: 1px solid red;
+}
+
+.navlist {
+    width: 50%;
+    justify-content: space-between;
+    display: flex;
+    list-style: none;
+    margin-right: auto;
+    padding: 0 30px;
+
+    //border: 1px solid blue;
+}
+
+.navlink {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.02rem;
+    font-size: 16px;
+    padding: 0 5px;
+}
+
+.navbutton {
+    margin: 0 30px;
+    padding: 5px 20px;
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    border-radius: 17px;
+    font-size: 14px;
+}
