@@ -1,8 +1,9 @@
 .header {
     width:100%;
     background-color: white;
-    padding: 45px 0 34px 0;
-    z-index: 3;
+    padding: 30px 0 34px 0;
+    //z-index: 3;
+
 
     //border: 1px solid grey;
 }
@@ -12,7 +13,6 @@
     margin-left: 17.5%;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
     padding: 68px 0 0 0;
 
 
@@ -38,12 +38,54 @@
     padding: 0 5px;
 }
 
-.navbutton {
-    margin: 0 30px;
-    padding: 5px 20px;
-    cursor: pointer;
-    color: white;
-    background-color: black;
-    border-radius: 17px;
-    font-size: 14px;
+.navlink:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+#dropdowncontent1 {
+    display:none;
+}
+
+.dropdown1:hover #dropdowncontent1 {
+    display:block;
+}
+
+#dropdowncontent2 {
+    display:none;
+}
+
+.dropdown2:hover #dropdowncontent2 {
+    display:block;
+}
+
+
+#dropdowncontent3 {
+    display:none;
+}
+
+.dropdown3:hover #dropdowncontent3 {
+    display:block;
+}
+
+.dropdowncontent {
+    padding: 12px 0 0 3px;
+}
+
+.dropnavlink {
+    list-style: none;
+    padding: 12px 0;
+}
+
+
+
+
+/*--------icon--------*/
+.fa-search {
+    color: black;
+    font-size: 16px;
+    margin: 0 140px 0 0;
+}
+
+.fa-search:hover {
+    color: #016eea;
 }
