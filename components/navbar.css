@@ -1,10 +1,7 @@
 .header {
-    width:100%;
+    width: 100%;
     background-color: white;
     padding: 30px 0 34px 0;
-    //z-index: 3;
-
-
     //border: 1px solid grey;
 }
 
@@ -13,9 +10,9 @@
     margin-left: 17.5%;
     display: flex;
     justify-content: flex-end;
-    padding: 68px 0 0 0;
-
-
+    padding: 0 0 0 0;
+    margin-top: 68px;
+    align-items: center;
     //border: 1px solid red;
 }
 
@@ -26,7 +23,6 @@
     list-style: none;
     margin-right: auto;
     padding: 0 30px;
-
     //border: 1px solid blue;
 }
 
@@ -35,7 +31,6 @@
     color: rgba(0, 0, 0, 0.5);
     letter-spacing: 0.02rem;
     font-size: 16px;
-    padding: 0 5px;
 }
 
 .navlink:hover {
@@ -43,41 +38,83 @@
 }
 
 #dropdowncontent1 {
-    display:none;
+    display: none;
 }
 
 .dropdown1:hover #dropdowncontent1 {
-    display:block;
+    display: block;
 }
 
 #dropdowncontent2 {
-    display:none;
+    display: none;
 }
 
 .dropdown2:hover #dropdowncontent2 {
-    display:block;
+    display: block;
 }
 
-
 #dropdowncontent3 {
-    display:none;
+    display: none;
 }
 
 .dropdown3:hover #dropdowncontent3 {
-    display:block;
+    display: block;
 }
 
 .dropdowncontent {
-    padding: 12px 0 0 3px;
+    padding: 0 0 0 3px;
+    position: absolute;
 }
 
 .dropnavlink {
     list-style: none;
-    padding: 12px 0;
+    padding: 14px 0;
+    font-size: 14px;
 }
 
+#topdropnavlink {
+    padding-top: 30px;
+}
 
+.dropdown1, .dropdown2, .dropdown3, .dropdown4 {
+    //border: 1px solid green;
 
+}
+
+.dropdowncontent {
+    color: rgba(0, 0, 0, 0.5);
+    letter-spacing: 0.02rem;
+    background-color: white;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.08);
+    position: absolute;
+    list-style: none;
+    padding-top: 22px;
+    padding-bottom: 39px;
+    padding-left: 43px;
+    padding-right: 43px;
+    z-index: 999;
+}
+
+.dropheader {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-style: italic;
+
+}
+
+.dropnavlink:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+.topmargin {
+    margin-top: 15px;
+}
+
+a  {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
 
 /*--------icon--------*/
 .fa-search {

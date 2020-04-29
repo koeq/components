@@ -1,9 +1,10 @@
 /*------- fonts -------*/
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600&display=swap');
 
 
 /*------- components design -------*/
 @import url("components/navbar.css");
+@import url("components/buttons.css");
 
 
 *{
@@ -11,6 +12,8 @@
     padding:0;
     margin:0;
     font-family: 'Manrope', sans-serif;
+
+    //border: 1px solid red;
 }
 html {
     height:100%;
@@ -24,12 +27,19 @@ body {
 .sidebar {
     width: 17.5%;
     height: 100%;
-    border-right: 1.5px solid;
+    border-right: 1px solid;
     border-color: rgba(0, 0, 0, 0.08);
     position: fixed;
     top:0;
     left: 0;
     z-index: -1;
+}
 
+
+main {
+    position: absolute;
+    right: 0;
+    width: 82.5%;
+    padding: 50px 50px;
 
 }

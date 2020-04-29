@@ -1,6 +1,6 @@
 .navbutton {
     margin: 0 30px 0 30px;
-    padding: 7px 20px;
+    padding: 7px  20px;
     cursor: pointer;
     color: white;
     background-color: black;
@@ -9,7 +9,7 @@
     font-weight: 600;
     letter-spacing: -0.009em;
     outline: none;
-    position: relative;
+
 
     //border: 1px solid blue;
 }
