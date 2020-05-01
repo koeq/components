@@ -1,0 +1,46 @@
+.main-button-container {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-buttons {
+    font-size: 18px;
+    width: 85px;
+    cursor: pointer;
+    border: 1.5px solid;
+    border-radius: 10px;
+    background-color: transparent;
+    padding: 14px 20px;
+    outline: none;
+}
+
+#blue {
+    color:  #016eea;
+    border-color: #016eea;
+}
+#grey {
+    color: rgba(0, 0, 0, 0.15);
+    border-color: rgba(0, 0, 0, 0.15);
+}
+#black {
+    color: rgba(0, 0, 0, 1);
+    border-color: rgb(0,0,0);
+}
+
+#blue:hover {
+    color:  white;
+background-color: #016eea;
+transition-duration: 100ms;
+}
+#grey:hover {
+    color: white;
+background-color: rgba(0, 0, 0, 0.6);
+transition-duration: 100ms;
+}
+#black:hover {
+    color: white;
+background-color: rgb(0,0,0);
+transition-duration: 300ms;
+}

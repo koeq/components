@@ -9,6 +9,7 @@
 @import url("components/navbar.css");
 @import url("components/buttons.css");
 @import url("components/main-navbar.css");
+@import url("components/main-buttons.css");
 
 
 *{
@@ -46,11 +47,19 @@ main {
 
 }
 
-.components-header {
+.header {
     font-family: 'PT Serif', serif;
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     padding: 10px 0 30px 0;
+    //border: 1px solid red;
+}
+
+.components-header {
+    font-family: 'PT Serif', serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 50px 0 30px 0;
     //border: 1px solid red;
 }
 
