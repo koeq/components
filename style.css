@@ -63,6 +63,7 @@ main {
 }
 
 p {
+    min-width: 400px;
     word-spacing: 0.2em;
     line-height: 1.8em;
 }

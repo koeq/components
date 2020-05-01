@@ -1,6 +1,61 @@
-.main-navbar{
+.main-nav-container {
+    display: flex;
+    width: 600px;
     margin-top: 40px;
-    width: 400px;
+    justify-content: space-around;
+    align-items: center;
+
+    //border: 1px solid darkblue;
+}
+/*------vertical-navbar------*/
+.main-navbar-2 {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.main-navbar-element-2  {
+    padding: 20px 10px;
+}
+
+.main-navbar-element-2:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+#home-2 {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+
+/*------icon-vertical------*/
+#bars {
+    padding:0;
+    margin: 20px 0;
+    font-size: 20px;
+    color: black;
+    /* border: 1px solid red; */
+}
+
+#bars:hover {
+    color:#016eea;
+}
+
+
+#bars .main-nav-icon {
+    font-size: 18px;
+}
+
+
+/*-----horizontal-navbar------*/
+.main-navbar{
+    width: 350px;
     display: flex;
     list-style: none;
     border-radius: 10px;
@@ -12,17 +67,12 @@
 
 }
 
- .main-navbar-link  {
-    color: black;
-    /* border: 1px solid red; */
-}
 .main-navbar-element  {
-    padding: 16px 14px;
+    padding: 25px 14px;
 }
 
 .main-navbar-element:hover  {
     background-color: rgba(0, 0, 0, 0.05);
-    //border-radius: 10px;
 }
 
 #home {
@@ -36,8 +86,8 @@
     font-size: 18px;
     color: black;
     padding: 5px 5px 5px 5px;
-    margin-right: 15px;
-    /* border: 1px solid green; */
+    margin-right: 25px;
+    /*border: 1px solid green; */
 }
 
 
