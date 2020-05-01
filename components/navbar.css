@@ -10,10 +10,9 @@
     margin-left: 17.5%;
     display: flex;
     justify-content: flex-end;
-    padding: 0 0 0 0;
     margin-top: 68px;
     align-items: center;
-    //border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .navlist {
@@ -23,18 +22,22 @@
     list-style: none;
     margin-right: auto;
     padding: 0 30px;
-    //border: 1px solid blue;
+    align-items: center;
+    /* border: 1px solid blue; */
 }
 
-.navlink {
+.navlink  {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
     letter-spacing: 0.02rem;
     font-size: 16px;
+    /* border: 1px solid red; */
 }
 
+
+
 .navlink:hover {
-    color: rgba(0, 0, 0, 1);
+    color: black;
 }
 
 #dropdowncontent1 {
@@ -77,7 +80,7 @@
 }
 
 .dropdown1, .dropdown2, .dropdown3, .dropdown4 {
-    //border: 1px solid green;
+      /* border: 1px solid green; */
 
 }
 
@@ -108,12 +111,18 @@
 }
 
 .topmargin {
-    margin-top: 15px;
+    //margin-top: 15px;
+    padding-top: 15px;
+
 }
 
 a  {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.5);
+}
+
+.buttonlink, .navicon {
+    padding-bottom: 15px;
 }
 
 /*--------icon--------*/
