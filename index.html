@@ -94,8 +94,8 @@
                 </div>
             </ul>
 
-                <a class="buttonlink" href="https://www.adobe.com/" target="_blank"><button class="navbutton" type="button" name="button">Explore Adobe XD</button></a>
-                <a class="navicon" href="#"><i class="fas fa-search fa-flip-horizontal"></i></a>
+            <a class="buttonlink" href="https://www.adobe.com/" target="_blank"><button class="navbutton" type="button" name="button">Explore Adobe XD</button></a>
+            <a class="navicon" href="#"><i class="fas fa-search fa-flip-horizontal"></i></a>
 
         </nav>
     </header>
@@ -103,34 +103,54 @@
     <div class="sidebar">
     </div>
 
- <main>
+    <main>
         <span class="introduction-text">how to / create / front-end / components /</span>
         <h1 class="header">Frontend Website Components</h1>
-        <h2 class="components-header">1. NAVBAR</h2>
+        <h2 class="components-header">1. NAVBARS</h2>
         <p>A navigation bar is basically a list of links, so using the &lt;ul&gt; and &lt;li&gt; elements makes perfect sense:
         </p>
         <div class="main-nav-container">
             <ul class="main-navbar-2">
-                <li id="home-2"class="main-navbar-element-2" ><a class="main-navbar-link-2" href="#">Home</a></li>
-                <li class="main-navbar-element-2" ><a class="main-navbar-link-2" href="#">News</a></li>
-                <li class="main-navbar-element-2" ><a class="main-navbar-link-2" href="#">Contact</a></li>
+                <li id="home-2" class="main-navbar-element-2"><a class="main-navbar-link-2" href="#">Home</a></li>
+                <li class="main-navbar-element-2"><a class="main-navbar-link-2" href="#">News</a></li>
+                <li class="main-navbar-element-2"><a class="main-navbar-link-2" href="#">Contact</a></li>
                 <a class="main-nav-icon-2" href="#"><i id="bars" class="fas fa-bars"></i></a>
             </ul>
             <ul class="main-navbar">
-                <li id="home" class="main-navbar-element" ><a class="main-navbar-link" href="#">Home</a></li>
-                <li class="main-navbar-element" ><a class="main-navbar-link" href="#">News</a></li>
-                <li class="main-navbar-element" ><a class="main-navbar-link" href="#">Contact</a></li>
+                <li id="home" class="main-navbar-element"><a class="main-navbar-link" href="#">Home</a></li>
+                <li class="main-navbar-element"><a class="main-navbar-link" href="#">News</a></li>
+                <li class="main-navbar-element"><a class="main-navbar-link" href="#">Contact</a></li>
                 <a class="main-nav-icon" href="#"><i class="fas fa-bars"></i></a>
             </ul>
         </div>
         <h2 class="components-header">2. BUTTONS</h2>
         <p></p>
         <div class="main-button-container">
-            <button id="blue" class="main-buttons"type="button" name="button">Blue</button>
-            <button id="grey" class="main-buttons"type="button" name="button">Grey</button>
-            <button id="black" class="main-buttons"type="button" name="button">Black</button>
+            <button id="blue" class="main-buttons" type="button" name="button">Blue</button>
+            <button id="grey" class="main-buttons" type="button" name="button">Grey</button>
+            <button id="black" class="main-buttons" type="button" name="button">Black</button>
         </div>
-    </main> 
+        <h2 class="components-header">3. DROPDOWNS</h2>
+        <p><b> >>HTML<< </b> <br>Use any element to open the dropdown content, e.g. a &lt;span&gt;, or a &lt;button&gt; element.
+                    Use a container element (like &lt;div&gt;) to create the dropdown content and add whatever you want inside of it.
+                    Wrap a &lt;div&gt; element around the elements to position the dropdown content correctly with CSS.</p>
+        <br>
+        <p> <b> >>CSS<< </b> <br> The .dropdown class uses position:relative, which is needed when we want the dropdown content to be placed right below the dropdown button (using position:absolute).
+        </p>
+
+        <div class="main-dropdown-container">
+
+            <div class="main-dropdown">
+                <button class="main-dropdown-button">Dropdown</button>
+                <div class="main-dropdown-content">
+                    <a href="#">Link1</a>
+                    <a href="#">Link2</a>
+                    <a href="#">Link3</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
 
 </body>
 
