@@ -1,16 +1,58 @@
 .grid {
     display: grid;
     width: 180%;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    gap: 20px 20px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 2em;
+    -ms-grid: auto;
+    grid-auto-rows: minmax(200px, auto);
     justify-items: center;
 
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .grid-items {
-    background-color: rgba(30,60,110,1);
+    width: 240px;
+    /* border: 1px solid red; */
+}
+
+.grid-items-image {
+    background-image: url("../ressources/images/jon-sailer-l806E91GvKE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 10px;
+    height: 90%;
     width: 250px;
-    height: 200px;
+    /* border: 1px solid steelblue; */
+}
+
+.grid-items-image:hover {
+    cursor: pointer;
+    background-image:
+    linear-gradient(to bottom, transparent, rgba(200, 200, 200, 0.5)),
+    url("../ressources/images/jon-sailer-l806E91GvKE-unsplash.jpg");
+
+}
+
+.grid-items-description {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+    /* border: 1px solid black; */
+}
+
+.grid-items-description > img {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+.grid-items-description > span {
+    color: rgba(0, 0, 0, 0.3);
+    font-size:  0.8em;
+    /* border: 0.5px solid black; */
+}
+.socials > span {
+    color: rgba(0, 0, 0, 0.3);
+    font-size:  0.8em;
+    /* border: 0.5px solid black; */
 }
