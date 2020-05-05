@@ -1,0 +1,43 @@
+.main-form {
+    background-color: rgba(28, 51, 69,0.1);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+form {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-form-name > label {
+    font-size: 14px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+.main-form-password > label {
+    font-size: 14px;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+form > button {
+    padding: 7px  20px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(0,0,0,1);
+    border-radius: 17px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: -0.009em;
+    outline: none;
+
+}
+form > button:hover {
+    background-color: #016eea;
+}
+
+input {
+
+}
