@@ -9,6 +9,8 @@ form.addEventListener('submit', (e)=> {
 
     if (password.value.length < 6) {
         messages.push("Your password must be at leas 6 characters!");
+    } else if (password.value === "password" || password.value === "Password") {
+        messages.push("Your password is invalid!");
     }
 
     if (messages.length > 0) {
