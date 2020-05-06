@@ -37,7 +37,11 @@ form > button {
 form > button:hover {
     background-color: #016eea;
 }
-
-input {
+#error {
+font-size: 0.8em;
+margin: 10px 0px;
+padding: 5px;
+border-radius: 5px;
+border-color: rgba(255, 0, 0, 0.5);
 
 }
